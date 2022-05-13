@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IglamApp.MainPage"
+             Visual="Material"
+             >
+
+    <StackLayout WidthRequest="50">
+        <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+            <Label Text="IGLAN App" HorizontalTextAlignment="Center" TextColor="#2494f4 " FontSize="36"/>
+        </Frame>
+       
+
+        <Entry x:Name="txtUsuario" Placeholder="Usuario" FontAttributes="Bold" FontSize="20" TextColor="#2494f4"></Entry>
+        <Entry x:Name="txtClave" Placeholder="Clave" FontAttributes="Bold" FontSize="20" TextColor="#2494f4"></Entry>
+       
+        <Button Text="Login" x:Name="Login" BackgroundColor="DarkBlue" Clicked="Login_Clicked"></Button>
+        
+       
+       
+    </StackLayout>
+
+</ContentPage>
