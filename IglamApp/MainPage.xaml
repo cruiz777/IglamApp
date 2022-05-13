@@ -8,6 +8,7 @@
     <StackLayout WidthRequest="50">
         <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
             <Label Text="IGLAN App" HorizontalTextAlignment="Center" TextColor="#2494f4 " FontSize="36"/>
+            <Image Source="mediumsmall.png" HeightRequest="200" WidthRequest="200"></Image>
         </Frame>
        
 

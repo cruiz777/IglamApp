@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\mediumsmall.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IglamApp\IglamApp.csproj">
       <Project>{DECA324E-1215-4BE4-A442-122C911C3C82}</Project>

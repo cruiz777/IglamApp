@@ -6,7 +6,7 @@
         <StackLayout>
             <Label Text="Dispositivo"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" FontSize="30" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
